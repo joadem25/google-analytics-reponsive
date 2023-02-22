@@ -1,0 +1,459 @@
+
+
+body {
+    /* min-height: 100%; */
+    /* background-color: blue; */
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    min-height: 100%;
+    /* background-color: aqua; */
+    /* margin: 0; */
+}
+
+#header {
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    box-shadow: 1px 3px 3px #646161;
+    position: relative;
+}
+
+#googleLogo {
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.noTextDecoration {
+    text-decoration: none;
+}
+
+#headerTitle {
+    font-family: 'roboto', sans-serif;
+    color: #4a4a4a;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+
+#headerTitleDiv {
+    margin-top: -35px;
+    margin-left: 120px;
+}
+
+#header_2 {
+    background-color: rgb(255, 119, 0);
+    width: vp;
+    height: 40px;
+    padding: 10px;
+}
+
+#header_2Text {
+    color: white;
+    font-family: 'roboto', sans-serif;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#header_3 {
+    height: 350px;
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+}
+
+.header_3Container {
+    height: 350px;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+#header_3Content_1 {
+    background-color: #FAFAFA;
+    padding-left: 80px;
+    padding-right: 50px;
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#header_3Content_2 {
+    background-image: url('./images/hero_academy.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+#downArrow {
+    width: 60px;
+    height: 60px;
+    background-color: #4285f4;
+    position: absolute;
+    right: 50%;
+    left: 47.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bolder;
+    bottom: 25%;
+    color: #F2F2F2;
+    rotate: 90deg;
+    border-radius: 50%;
+    box-shadow: 1px 2px 5px #575555;
+}
+
+#noDecoration {
+    text-decoration: none;
+    
+}
+
+a div:hover {
+    background-color: red;
+    color: red;
+    
+}
+
+
+.pageFont {
+    font-family: 'roboto', sans-serif;
+}
+
+#header_3TextTitle {
+    font-size: 44px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: normal;
+}
+
+#header_3TextContent {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+#CoursesDivParent {
+    width: 100%;
+    min-height: 1020px;
+    background-color: #4285F4;
+    padding-top: 20px;
+}
+
+#courseDivParentText {
+    padding-left: 5%;
+    font-family: 'roboto', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+}
+
+#coursesDiv {
+    width: 89%;
+    height: 100%;
+    background-color: #4285F4;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items:baseline; */
+    /* align-content: flex-start; */
+    /* flex-direction: row; */
+    /* justify-content:center; */
+    gap: 20px;
+    /* padding-top: 10px; */
+    /* padding-left: 50%;
+    padding-right: 50%; */
+    /* padding: 2%; */
+    margin: auto;
+    
+}
+
+
+h2.analyticsCoursesHeading {
+    font-family: 'roboto', sans-serif;
+    font-size: 23.2px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+p.analyticsCoursesParagraph {
+    font-family: 'roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 1.5;
+    
+}
+
+.analyticCoursesParagraphDiv {
+    height: 250px;
+}
+
+.analyticsCoursesArrow {
+    font-size: 32px;
+    color: #FF7700;
+   width: 20%;
+   margin-left: 230px;
+   margin-bottom: 10px;
+   
+
+}
+
+img.analyticsCoursesImage {
+    width: 40px;
+    height: 45px;
+}
+.course {
+    width: 260px;
+    height: 435px;
+    background-color: white;
+    /* border: 1px solid red; */
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px #575555;
+    /* display: flex;
+    flex-flow: column; */
+    /* justify-content: space-evenly; */
+    padding: 1%;
+}
+
+
+#instructorParentDiv {
+    height: 850px;
+    width: 100%; 
+    /* background-color: blueviolet; */
+    /* margin: auto; */
+    /* position:; */
+    
+}
+
+#instructorParentDivText {
+    font-family: 'roboto', sans-serif;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-left: 68px;
+    
+}
+
+#instructorDiv {
+    height: 850px;
+    width: 90%;
+    /* background-color: cadetblue; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    top: 20px;
+}
+
+img.instructorPicture {
+    width: auto;
+    height: 32.5%;
+    position: absolute;
+    display: inline;
+}
+
+.instructorName {
+    
+    width: 73.3%;
+    height: 31px;
+    /* background-color: blue; */
+    margin-left: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    border-bottom: 1px solid #b1acac;
+    
+}
+
+#instructorName {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.87);
+    
+}
+
+.instructorDescription {
+    width: 73.3%;
+    height: 130px;
+    /* background-color: yellow; */
+    margin-left: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+#instructorDescription {
+    font-weight: normal;
+}
+
+.instructor {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    /* border: 1px solid red; */
+    box-shadow: 2px 2px 3px #575555;
+    border-radius: 3px;
+    
+}
+
+#miniCourseParentDiv {
+    height: 350px;
+    width: 90%;
+    /* background-color: darkmagenta; */
+    margin: auto;
+}
+
+#miniCourseParentDivTitle {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: normal;
+}
+
+#miniCourseParentDivParagragh {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+#miniCourseDiv {
+    height: 200px;
+    width: vp;
+    /* background-color: darkkhaki; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+}
+
+.miniCourse {
+    width: 250px;
+    height: 150px;
+    background-color: #F2F2F2;
+    /* border: 1px solid red; */
+    text-align: center;
+    gap: 10px;
+    padding: 1%;
+    box-shadow: 1px 2px 3px #b1acac;
+    border-radius: 3px;
+
+}
+
+#miniCourse {
+    font-family: 'roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 20px;
+}
+
+.miniCourseImage {
+    width: 55px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#footer {
+    height: 270px;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+#footerHeader {
+    width: 100%;
+    height: 80px;
+    /* background-color: teal; */
+    position: relative;
+    border-bottom: 1px solid #b1acac;
+}
+
+#footerHeaderText {
+    font-weight: normal;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* vertical-align: middle; */
+    /* display: inline-block;
+    vertical-align: middle; */
+}
+
+#bottom {
+    /* position:relative; */
+    
+    /* background-color: red; */
+    width: 300px;
+    
+    position: absolute;
+    bottom: 50%;
+    /* top: 50%; */
+    
+    left: 100px;
+    bottom: 50%;
+    
+
+}
+
+#footerFooter {
+    width: 100%;
+    height: 190px;
+    /* background-color: palegreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px; 
+}
+
+.resourcesImage {
+    width: 45px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resourcesText {
+    text-align: center;
+}
+.resources {
+    width: 150px;
+    height: 100px;
+    /* background-color: #; */
+    /* border: 1px solid red; */
+}
+
+
+#footerBelow {
+    height: 60px;
+    width: 100%;
+    background-color: #FAFAFA;
+    position: relative;
+}
+
+#nav {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: 'roboto', sans-serif;
+    color: #4a4a4a;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#footerBelowNav {
+    /* background-color: red; */
+    position: absolute;
+    right: 0;
+    bottom: 30%;
+    
+}
+
+a.hoverFooterBelowText:hover {
+    background-color: #E8E8E8;
+    
+
+}
